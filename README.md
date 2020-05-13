@@ -11,7 +11,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: report_images/Sim1.JPG
-[image3]: report_images/Sim2.JPG
+[image2]: report_images/Sim2.JPG
 
 ---
 ## Model Architecture and Training Strategy
@@ -21,6 +21,7 @@ This project utilizes a Kalman filter to estimate the state of a moving object o
 * `tools.cpp` - functions to calculat ethe Jacobian matrix and RMSE
 * `FusionEKF.cpp` - initializes the filter, calls the predict and update functions in the Kalman filter
 * `kalman_filter.cpp` - defines the predict and update functions (lidar and radar)
+* `measurement_package.h` - object to define the sensor data source and  contains the raw measurement data
 
 An exmaple of the output is shown below:
 
@@ -33,19 +34,6 @@ Zoomed in:
 ![][image2]
 
 The root-mean-squared errors were below 0.1m and 0.5m/s for x and y positions and velocities respectively.
-
-INPUT: values provided by the simulator to the c++ program
-
-["sensor_measurement"] => the measurement that the simulator observed (either lidar or radar)
-
-OUTPUT: values provided by the c++ program to the simulator
-
-["estimate_x"] <= kalman filter estimated position x
-["estimate_y"] <= kalman filter estimated position y
-["rmse_x"]
-["rmse_y"]
-["rmse_vx"]
-["rmse_vy"]
 
 ---
 ## Try it yourself!
