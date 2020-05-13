@@ -10,7 +10,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: report_images/Sim1.png
+[image1]: report_images/Sim1.JPG
 [image3]: report_images/Sim2.JPG
 
 ---
