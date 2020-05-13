@@ -3,7 +3,7 @@
 The goals / steps of this project are the following:
 * Implement linear and non-linear Kalman filter equations
 * Develop the Initialization -> Predict -> Update -> Predict... cycle
-* Develop an understanding of sensor fusion through usage of both LiDAR and Radar data
+* Develop an understanding of sensor fusion through usage of both lidar and radar data
 * Use the simulator to test Extended Kalman Filter algorithms
 * Summarize the results with a written report
 
