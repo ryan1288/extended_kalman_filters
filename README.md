@@ -23,6 +23,8 @@ This project utilizes a Kalman filter to estimate the state of a moving object o
 * `kalman_filter.cpp` - defines the predict and update functions (lidar and radar)
 * `measurement_package.h` - object to define the sensor data source and  contains the raw measurement data
 
+My work involved the `tools.cpp`, `FusionEKF.cpp`, and `kalman_filter.cpp`.
+
 An example of the output is shown below:
 
 Full test:
