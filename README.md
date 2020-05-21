@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 [image2]: report_images/Sim2.JPG
 
 ---
-## Model Architecture and Training Strategy
+## Project Overview
 This project utilizes a Kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
 
 * `main.cpp` - communicates with the simulator, receives data measurements and calls the Kalman filter and RMSE functions
